@@ -14,7 +14,7 @@ public abstract class Pizza {
     String name;//名称
     String dough;//面团
     String sauce;//酱料
-    ArrayList toppings = new ArrayList();//佐料
+    ArrayList<String> toppings = new ArrayList<String>();//佐料
 
     //准备阶段
     void prepare() {
